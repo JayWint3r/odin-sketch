@@ -1,0 +1,20 @@
+#container{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    top: 30px;
+    outline: 3px solid black;
+    margin: auto;
+    height: 960px;
+    width: 960px;
+    padding: 0;
+    border: none;
+    font-size: 0;
+}
+
+.grid{
+    outline: 1px solid black;
+
+}
+
